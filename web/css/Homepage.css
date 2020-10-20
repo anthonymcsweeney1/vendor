@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Oct-2020, 21:00:31
+    Author     : E7440 i5 8GB
+*/
+
+h2 {text-align: center;}
+p {text-align: center; }
+.paragraph-wrapper {
+    text-align: center;
+   
+}
+.paragraph-wrapper p {
+    display: inline-block;
+}
+.paragraph-wr {
+    text-align: right;
+   
+}
+.left {
+  position: absolute;
+  left: 25px;
+  width: 300px;
+ 
+}
+
+hr.style1 {
+	height: 5px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #adacac inset;
+         width: 800px;
+}
+
+hr.style2 {
+	height: 5px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #adacac inset;
+         width: 300px;
+}
+
+.yellow{
+    background:#fac75a;
+    color:#fff;
+    box-shadow: 0 3px 0 #f9b629;
+    border-radius:5px;   
+    color:black;
+    font-family:verdana;
+    font-size:13px;
+   border: 2px solid black;   
+  
+}
+.yellow:hover{
+    background:#fce17a;    
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: white;
+  text-align: center;
+}
+h3 {text-align: center;}
+nav-item nav-link{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 450px;
+  right: 500px;
+  border: 6px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 500px;
+  max-height: 500px;
+ 
+  padding: 10px;
+  background-color: white;
+}
+
+
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}  
+        
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
