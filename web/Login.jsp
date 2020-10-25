@@ -12,7 +12,7 @@
 <div class="bs-example">
     
     
-    <center><img  src="Images/download.png" alt="logo" width = "15%" /></center>  
+    <center><img  src="web/Images/download.png" alt="logo" width = "15%" /></center>  
         
    
     
@@ -71,7 +71,7 @@ button {
 </head>    
 <body>    
     
-    <form action="Homepage.jsp">  
+    <form action="web/Homepage.jsp">  
         <div class="container"> 
             <center> <h2> Sign-In </h2> </center>   
             <label>Email or mobile phone number </label>   
