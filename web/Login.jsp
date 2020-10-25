@@ -1,10 +1,4 @@
-<%-- 
-    Document   : Nav
-    Created on : 20-Nov-2019, 13:21:38
-    Author     : 117380531
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
