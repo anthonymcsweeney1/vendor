@@ -94,7 +94,7 @@ h3 {text-align: center;}
                                                 
                                                 <h4><b> Sign In </b></h4> 
                                              <hr class="style2">
-                                             <a href = "Login.jsp" class ="yellow"><b>Sign in to vendor central</b></a> <br>
+                                             <a href = "web/Login.jsp" class ="yellow"><b>Sign in to vendor central</b></a> <br>
                                                 <a style="font-size:11px" href="">Forgot your password?</a>
                                       
   
